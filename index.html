@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kayabaş Makina | Endüstriyel Makine Kataloğu</title>
+  <meta name="description" content="Kayabaş Makina’nın Türkçe ve İngilizce endüstriyel makine kataloğu demosu.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kayabaş Makina | Endüstriyel Makine Kataloğu">
+  <meta property="og:description" content="Kayabaş Makina’nın Türkçe ve İngilizce endüstriyel makine kataloğu demosu.">
+  <meta property="og:image" content="assets/images/hero-packaging.webp">
+  <link rel="icon" href="assets/logo/kayabas-emblem.png" type="image/png">
+  <link rel="preload" href="assets/images/hero-packaging.webp" as="image">
+  <link rel="preload" href="assets/fonts/barlow-condensed-800-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/barlow-condensed-800-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="assets/js/translations.js" defer></script>
+  <script src="assets/js/products.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+<a href="#icerik" class="skip"><span data-i18n="skip">İçeriğe geç</span></a>
+<header class="header" id="ana-sayfa">
+  <div class="wrap head">
+    <div class="identity"><a class="brand" href="#ana-sayfa"><img src="assets/logo/kayabas-horizontal.png" width="765" height="210" alt="Kayabaş Makina"></a><span data-i18n="demo" class="demo">Tasarım Demosu</span></div>
+    <button type="button" class="menu-toggle" data-label="menu" aria-label="Menü" aria-controls="main-menu" aria-expanded="false" hidden><svg class="open-icon" width="18" height="18" aria-hidden="true"><use href="assets/icons/ui.svg#menu"/></svg><svg class="close-icon" width="18" height="18" aria-hidden="true"><use href="assets/icons/ui.svg#close"/></svg><span data-i18n="menu">Menü</span></button>
+    <nav class="main-menu" id="main-menu" data-label="mainNav" aria-label="Ana menü">
+      <a href="#ana-sayfa" aria-current="location"><span data-i18n="home">Ana Sayfa</span></a><a href="#kurumsal"><span data-i18n="company">Kurumsal</span></a>
+      <div class="nav-group">
+        <a href="#makineler"><span data-i18n="machines">Makinelerimiz</span></a>
+        <button type="button" class="category-toggle" aria-controls="category-menu" aria-expanded="false" data-label="machines" aria-label="Makinelerimiz" hidden><svg width="15" height="15" aria-hidden="true"><use href="assets/icons/ui.svg#down"/></svg></button>
+        <div id="category-menu" class="category-menu" hidden><a href="#kategori-packaging"><span data-i18n="pack">Paketleme Makineleri</span></a><a href="#kategori-grain"><span data-i18n="grain">Tahıl İşleme ve Taşıma Ekipmanları</span></a><a href="#kategori-production"><span data-i18n="production">Üretim Sistemleri</span></a></div>
+      </div>
+      <a href="#videolar"><span data-i18n="videos">Galeri</span></a><a href="#iletisim"><span data-i18n="contact">İletişim</span></a>
+      <div class="language" role="group" data-label="language" aria-label="Dil seçimi" hidden><button type="button" data-lang="tr" lang="tr" aria-label="Türkçe" aria-pressed="true">TR</button><span aria-hidden="true">/</span><button type="button" data-lang="en" lang="en" aria-label="English" aria-pressed="false">EN</button></div>
+      <a class="button button-red quote" href="#iletisim"><svg width="18" height="18" aria-hidden="true"><use href="assets/icons/ui.svg#doc"/></svg><span data-i18n="quote">Teklif Alın</span></a>
+    </nav>
+  </div>
+</header>
+<main id="icerik">
+  <section class="hero" data-label="slides" aria-label="Makine görselleri">
+    <div class="slides" aria-hidden="true">
+      <img class="slide active" src="assets/images/hero-packaging.webp" alt="" fetchpriority="high">
+      <img class="slide" src="assets/images/hero-grain.webp" alt="" loading="lazy">
+      <img class="slide" src="assets/images/hero-production.webp" alt="" loading="lazy">
+    </div>
+    <div class="hero-diagonal" aria-hidden="true"></div>
+    <div class="wrap hero-body">
+      <div class="hero-copy"><h1><span data-i18n="hero1">Üretimin gücü.</span><br><strong data-i18n="hero2">Mühendisliğin imzası.</strong></h1>
+      <p data-i18n="heroLead" class="hero-lead">Endüstriyel makine ve üretim teknolojileri.</p>
+      <a class="button button-gold" href="#makineler"><span data-i18n="explore">Makinelerimizi Keşfedin</span><svg width="18" height="18" aria-hidden="true"><use href="assets/icons/ui.svg#arrow"/></svg></a></div>
+    </div>
+    <div class="wrap hero-bottom">
+      <div class="slider-controls" hidden>
+        <button type="button" data-step="-1" data-label="previous" aria-label="Önceki slayt"><svg width="16" height="16" aria-hidden="true"><use href="assets/icons/ui.svg#left"/></svg></button>
+        <button type="button" data-slide="0" data-label="pack" aria-label="Paketleme Makineleri"></button><button type="button" data-slide="1" data-label="grain" aria-label="Tahıl İşleme ve Taşıma Ekipmanları"></button><button type="button" data-slide="2" data-label="production" aria-label="Üretim Sistemleri"></button>
+        <button type="button" data-step="1" data-label="next" aria-label="Sonraki slayt"><svg width="16" height="16" aria-hidden="true"><use href="assets/icons/ui.svg#arrow"/></svg></button>
+        <button type="button" class="slider-rotation" data-label="pause" aria-label="Slayt gösterisini duraklat">Ⅱ</button>
+        <span class="sr-only slide-status" aria-live="off"></span>
+      </div>
+      <span data-i18n="representative" class="image-label">Temsili görsel</span>
+    </div>
+  </section>
+  <section class="section catalog wrap" id="makineler">
+    <img class="blueprint catalog-drawing" src="assets/icons/gear-drawing.svg" alt="" width="340" height="190">
+    <div class="catalog-heading">
+      <div><p data-i18n="groups" class="eyebrow">ÜRÜN GRUPLARIMIZ</p><h2 data-i18n="productTitle">Temsili ürün grupları</h2></div>
+      <p data-i18n="productLead">Endüstriyel üretime yönelik farklı makine ve sistem çözümleri. Demo kategorileri firma teyidine tabidir.</p>
+    </div>
+    <div class="cards">
+      <a class="card" data-category="packaging" href="#kategori-packaging" style="--delay:0ms"><figure class="visual "><img src="assets/images/category-packaging.webp" alt="" loading="lazy"><figcaption data-i18n="representative">Temsili görsel</figcaption></figure><h3><span data-i18n="pack">Paketleme Makineleri</span><svg width="18" height="18" aria-hidden="true"><use href="assets/icons/ui.svg#arrow"/></svg></h3></a>
+      <a class="card" data-category="grain" href="#kategori-grain" style="--delay:80ms"><figure class="visual "><img src="assets/images/category-grain.webp" alt="" loading="lazy"><figcaption data-i18n="representative">Temsili görsel</figcaption></figure><h3><span data-i18n="grain">Tahıl İşleme ve Taşıma Ekipmanları</span><svg width="18" height="18" aria-hidden="true"><use href="assets/icons/ui.svg#arrow"/></svg></h3></a>
+      <a class="card" data-category="production" href="#kategori-production" style="--delay:160ms"><figure class="visual "><img src="assets/images/category-production.webp" alt="" loading="lazy"><figcaption data-i18n="representative">Temsili görsel</figcaption></figure><h3><span data-i18n="production">Üretim Sistemleri</span><svg width="18" height="18" aria-hidden="true"><use href="assets/icons/ui.svg#arrow"/></svg></h3></a>
+    </div>
+    <div class="details">
+      <article class="category-detail" id="kategori-packaging"><figure class="visual "><img src="assets/images/category-packaging.webp" alt="" loading="lazy"><figcaption data-i18n="representative">Temsili görsel</figcaption></figure><div class="detail-copy"><h3 data-i18n="pack">Paketleme Makineleri</h3><p data-i18n="packDesc">Dozajlama, dolum ve ambalaj kapatma gibi paketleme süreçlerine yönelik makine ve sistem grubu.</p><div class="product-list" data-products="packaging"></div><a href="#makineler" class="detail-back"><span data-i18n="back">Ürün gruplarına dön</span></a></div></article>
+      <article class="category-detail" id="kategori-grain"><figure class="visual "><img src="assets/images/category-grain.webp" alt="" loading="lazy"><figcaption data-i18n="representative">Temsili görsel</figcaption></figure><div class="detail-copy"><h3 data-i18n="grain">Tahıl İşleme ve Taşıma Ekipmanları</h3><p data-i18n="grainDesc">Tahılın işlenmesi ve üretim aşamaları arasında taşınmasına yönelik ekipman grubu.</p><div class="product-list" data-products="grain"></div><a href="#makineler" class="detail-back"><span data-i18n="back">Ürün gruplarına dön</span></a></div></article>
+      <article class="category-detail" id="kategori-production"><figure class="visual "><img src="assets/images/category-production.webp" alt="" loading="lazy"><figcaption data-i18n="representative">Temsili görsel</figcaption></figure><div class="detail-copy"><h3 data-i18n="production">Üretim Sistemleri</h3><p data-i18n="productionDesc">Birden fazla üretim aşamasını bir araya getiren hat ve ekipman grubu.</p><div class="product-list" data-products="production"></div><a href="#makineler" class="detail-back"><span data-i18n="back">Ürün gruplarına dön</span></a></div></article>
+    </div>
+    <dialog id="catalog-dialog" aria-labelledby="dialog-title"><button type="button" class="dialog-close" data-label="close" aria-label="Detayı kapat">×</button><div class="dialog-content"></div></dialog>
+  </section>
+  <section class="about wrap section" id="kurumsal">
+    <figure class="visual about-image"><img src="assets/images/about-cnc.webp" alt="" loading="lazy"><figcaption data-i18n="representative">Temsili görsel</figcaption></figure>
+    <div class="about-copy"><img class="blueprint about-drawing" src="assets/icons/gear-drawing.svg" alt="" width="340" height="190"><p data-i18n="about" class="eyebrow">HAKKIMIZDA</p><h2>Kayabaş Makina</h2><p data-i18n="aboutText">Kayabaş Makina, makine imalatı ve endüstriyel üretim alanında faaliyet gösteren bir firmadır.</p><p data-i18n="aboutDemo">Bu tasarım konsepti, firmanın ürün gruplarını ve üretim çözümlerini dijital ortamda tanıtmak amacıyla hazırlanmıştır.</p><a class="button button-outline" href="#firma-bilgileri"><span data-i18n="companyInfo">Kurumsal Bilgiler</span><svg width="18" height="18" aria-hidden="true"><use href="assets/icons/ui.svg#arrow"/></svg></a>
+      <div id="firma-bilgileri" class="company-details"><h3>Kayabaş Makina</h3><address>Sanayi Mahallesi, 60099. Cadde No:2, 27110 Şehitkamil / Gaziantep, <span data-country>Türkiye</span></address><a href="https://www.google.com/maps/search/?api=1&amp;query=Sanayi%20Mahallesi%2C%2060099.%20Cadde%20No%3A2%2C%2027110%20%C5%9Eehitkamil%20%2F%20Gaziantep%2C%20T%C3%BCrkiye"><span data-i18n="directions">Yol tarifi</span></a></div>
+    </div>
+  </section>
+  <section class="gallery section" id="videolar">
+    <div class="wrap gallery-layout"><div class="gallery-copy"><p data-i18n="gallery" class="eyebrow">ÜRETİM GALERİSİ</p><h2><span data-i18n="galleryTitle">Üretim teknolojilerinden</span> <span data-i18n="galleryTitleEnd">görseller.</span></h2><p data-i18n="galleryText">Güncel paylaşımlar için Instagram hesabımızı ziyaret edin.</p><a class="button button-outline" href="https://www.instagram.com/makinakayabas/"><svg width="18" height="18" aria-hidden="true"><use href="assets/icons/ui.svg#instagram"/></svg> @makinakayabas <svg width="18" height="18" aria-hidden="true"><use href="assets/icons/ui.svg#arrow"/></svg></a></div>
+      <div class="gallery-media">
+        <figure class="visual "><img src="assets/images/gallery-01.webp" alt="" loading="lazy"><figcaption data-i18n="representative">Temsili görsel</figcaption></figure>
+        <figure class="visual "><img src="assets/images/gallery-02.webp" alt="" loading="lazy"><figcaption data-i18n="representative">Temsili görsel</figcaption></figure>
+        <figure class="visual "><img src="assets/images/gallery-03.webp" alt="" loading="lazy"><figcaption data-i18n="representative">Temsili görsel</figcaption></figure>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="iletisim">
+    <div class="wrap contact-layout">
+      <h2><span data-i18n="contact1">Üretiminiz için</span><br><strong data-i18n="contact2">birlikte düşünelim.</strong></h2>
+      <p data-i18n="contactText">İhtiyaçlarınıza uygun makine ve üretim çözümleri hakkında bilgi almak için bizimle iletişime geçin.</p>
+      <a href="https://www.instagram.com/makinakayabas/" class="contact-link instagram-contact" data-label="instagramContact" aria-label="Instagram üzerinden iletişim"><svg width="27" height="27" aria-hidden="true"><use href="assets/icons/ui.svg#instagram"/></svg><span>Instagram<br><strong>@makinakayabas</strong></span></a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Sanayi%20Mahallesi%2C%2060099.%20Cadde%20No%3A2%2C%2027110%20%C5%9Eehitkamil%20%2F%20Gaziantep%2C%20T%C3%BCrkiye" class="contact-link"><svg width="27" height="27" aria-hidden="true"><use href="assets/icons/ui.svg#pin"/></svg><span><strong data-i18n="directions">Yol tarifi</strong><br><span class="contact-address">Sanayi Mahallesi, 60099. Cadde No:2, 27110 Şehitkamil / Gaziantep, <span data-country>Türkiye</span></span></span></a>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer">
+  <a class="brand" href="#ana-sayfa"><img src="assets/logo/kayabas-horizontal.png" width="765" height="210" alt="Kayabaş Makina"></a>
+  <nav data-label="footerNav" aria-label="Alt menü"><a href="#ana-sayfa"><span data-i18n="home">Ana Sayfa</span></a><a href="#kurumsal"><span data-i18n="company">Kurumsal</span></a><a href="#makineler"><span data-i18n="machines">Makinelerimiz</span></a><a href="#videolar"><span data-i18n="videos">Galeri</span></a><a href="#iletisim"><span data-i18n="contact">İletişim</span></a></nav>
+  <div><span data-i18n="agency">Tasarım ve Geliştirme</span><br><a href="https://www.bartss.com">Bartss Creative Studio</a></div>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<symbol id="arrow" viewBox="0 0 24 24"><path d="M3 12h17m-7-7 7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+<symbol id="left" viewBox="0 0 24 24"><path d="M21 12H4m7 7-7-7 7-7" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+<symbol id="down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+<symbol id="close" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+<symbol id="menu" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+<symbol id="doc" viewBox="0 0 24 24"><path d="M5 2h9l5 5v15H5zM14 2v6h5M8 12h8m-8 4h8" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+<symbol id="instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.4"/></g><circle cx="17.6" cy="6.4" r="1" fill="currentColor"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M12 1a8 8 0 0 0-8 8c0 5.2 8 14 8 14s8-8.8 8-14a8 8 0 0 0-8-8m0 4.6a3.3 3.3 0 1 1 0 6.6 3.3 3.3 0 0 1 0-6.6" fill="currentColor"/></symbol>
+</svg>
